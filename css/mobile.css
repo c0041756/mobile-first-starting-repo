@@ -1,7 +1,9 @@
 
 
 /* .container{
-    background-color:#50d4eb; */
+    background-color:#50d4eb;
+} */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -20,6 +22,7 @@ header{
 }
 
 header h2{
+    font-family: 'Montserrat', sans-serif;
     color:#fff;
     margin:0;
 }
