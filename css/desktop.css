@@ -1,0 +1,32 @@
+body{
+    background-color: green;
+}
+#burgerMenu{
+    display:none;
+}
+header{
+    max-width: 1280px;
+    margin:auto;
+}
+nav{
+    display:flex;
+    height: 40px;
+    /* justify-content: flex-end; */
+}
+nav ul{
+    display:flex;
+}
+nav ul li{
+    padding:4px;
+    border-bottom:none;
+}
+nav ul li a{
+    margin:0 15px;
+}
+main{
+    max-width:1280px;
+    margin:auto;
+}
+.articles{
+    flex-wrap: nowrap;
+}
